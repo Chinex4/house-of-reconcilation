@@ -1,5 +1,6 @@
 import React from 'react';
 import { FaHandHoldingHeart } from 'react-icons/fa';
+import { Link } from 'react-router-dom';
 
 export default function GiveToChurchSection() {
 	return (
@@ -12,9 +13,9 @@ export default function GiveToChurchSection() {
     				<p className='text-dark font-semibold text-2xl mb-6'>
     					Your generosity is blessing lives, <br /> thank you for giving
     				</p>
-    				<button className='bg-primary text-white px-6 py-3 rounded font-semibold hover:bg-primary-dark transition'>
+    				<Link to={'/give'} className='bg-primary text-white px-6 py-3 rounded font-semibold hover:bg-primary-dark transition'>
     					GIVE NOW
-    				</button>
+    				</Link>
 				</div>
 
 				<div className='mt-8 flex justify-center'>

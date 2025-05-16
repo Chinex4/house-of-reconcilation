@@ -46,9 +46,9 @@ export default function Navbar() {
 					</div>
 
 					{/* Desktop Button */}
-					<button className='hidden lg:block bg-primary px-4 py-2 rounded hover:bg-primary'>
+					<a href='#contact-us' className='hidden lg:block bg-primary px-4 py-2 rounded hover:bg-primary'>
 						Contact Us
-					</button>
+					</a>
 
 					{/* Mobile Menu Button */}
 					<div className='lg:hidden'>
@@ -102,9 +102,9 @@ export default function Navbar() {
 									{link.name}
 								</Link>
 							))}
-							<button className='bg-primary px-4 py-2 rounded hover:bg-primary mt-4'>
+							<a href='#contact-us' className='bg-primary px-4 py-2 rounded hover:bg-primary mt-4'>
 								Contact Us
-							</button>
+							</a>
 						</nav>
 					</motion.div>
 				</>
