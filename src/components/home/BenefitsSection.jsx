@@ -6,9 +6,9 @@ export default function BenefitSection() {
 	const benefits = [
 		{
 			number: 1,
-			title: 'ENGAGE WITH SERMONS & DEVOTIONALS',
+			title: 'GET IN TOUCH WITH TEACHINGS AND MESSAGES',
 			description:
-				'Immerse yourself in our weekly sermons and daily devotionals, available to you anytime and anywhere, helping you to deepen your faith, expand your biblical understanding, and spiritually connect better, anytime.',
+				'Ignite your world with our weekly messages and daily teachings, available to you at all times, helping you with deeper insight of Gods Word and spiritual encounters.',
 			image: '/hor-bene1.png', // replace with your actual image
 		},
 		{
@@ -37,10 +37,9 @@ export default function BenefitSection() {
 	return (
 		<section className='bg-[#1A1A1A] py-20 px-4'>
 			<div className='max-w-7xl mx-auto text-center mb-20'>
-				<SectionTitle title={'BE PART OF SOMETHING GREATER'} />
+				<SectionTitle title={' ⁠BECOME PART OF A PURPOSEFUL JOURNEY'} />
 				<p className='text-white/70 max-w-2xl mx-auto'>
-					Discover the benefits of our platform for spiritual growth and
-					community engagement
+				EXPERIENCE HOW OUR PLATFORM CAN INSPIRE YOUR WALK WITH GOD AND CHRISTIAN FELLOWSHIP 
 				</p>
 			</div>
 

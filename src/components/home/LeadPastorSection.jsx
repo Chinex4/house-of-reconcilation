@@ -11,7 +11,8 @@ export default function LeadPastorSection() {
     						<img
     							src='/hor-pastor.png' // <-- replace with your image path
     							alt='Pastor'
-    							className='w-full lg:w-[458px] h-full lg:h-[458px] object-cover'
+    							className='w-full rounded-full lg:w-[458px] h-full lg:h-[458px] object-cover'
+								
     						/>
     					</div>
     				</div>
@@ -22,13 +23,8 @@ export default function LeadPastorSection() {
     						MEET OUR <span className='text-primary'>LEAD</span> PASTOR
     					</h2>
     					<p className='text-dark/80 leading-relaxed text-sm md:text-base'>
-    						<span className='font-bold'>~ PASTOR KELVIN ODIRI</span> has been
-    						faithfully serving in ministry for over [x] years. Known for his/her
-    						passion for [teaching the word, building families, youth mentorship,
-    						etc.], pastor [name] is committed to seeing lives transformed
-    						through the power of the gospel. With a heart for the community and
-    						a vision for the next generation, pastor [name] leads [church name]
-    						with wisdom, humility, and unwavering faith.
+    						<span className='font-bold'>~ PST.(PJARM). JOSEPH ENOBAKHARE</span> is a devoted servant of God with a lasting impact of faith in Gods word and revelation of the of the Holy Spirit, known for his passion for discipleship, mentorship and trainings and spiritual growth in beleiver . Pastor (Pharm).Joseph Enobakhare is committed to the ministry of reconciling lives through the power of Gods word and ministry of the Holy Spirit. with a burning desire for revival and transformation of lives and destinies. With divine wisdom, power and grace, Pastor (Pharm).Joseph Enobakhare continues to lead House of reconciliation christian outreach int'l.
+
     					</p>
     				</div>
     			</div>

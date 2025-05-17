@@ -14,7 +14,7 @@ const Home = () => {
 
 	useEffect(() => {
 		const today = new Date();
-		if (today.getFullYear() === 2025 && today.getMonth() === 4 && today.getDate() === 16) {
+		if (today.getFullYear() === 2025 && today.getMonth() === 4 && today.getDate() === 17) {
 			setIsBirthday(true);
 			launchConfetti();
 		}
@@ -68,9 +68,9 @@ const Home = () => {
 								leaveTo="opacity-0 scale-95">
 								<Dialog.Panel className="w-full max-w-md transform overflow-hidden rounded-2xl bg-white text-dark p-6 text-center align-middle shadow-xl transition-all">
 									<img
-										src="/pastor.jpg"
+										src="/pastor.jpeg"
 										alt="Pastor"
-										className="w-32 h-32 mx-auto rounded-full mb-4 object-cover"
+										className="w-50 h-50 mx-auto rounded-full mb-4 object-cover"
 									/>
 									<Dialog.Title
 										as="h3"

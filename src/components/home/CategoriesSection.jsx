@@ -24,12 +24,11 @@ export default function CategoriesSection() {
 	return (
 		<section className='bg-dark py-16 px-4'>
 			<div className='max-w-7xl mx-auto text-center'>
-				<SectionTitle title={'EXPLORE OUR WIDE VARIETY OF CATEGORIES'} />
+				<SectionTitle title={'⁠IGNITE YOUR WORLD THROUGH OUR VARIOUS CHANNELS '} />
 
 				{/* Subheading */}
 				<p className='text-white/70 max-w-2xl mx-auto mb-12'>
-					WHETHER YOU'RE SEEKING INSPIRATION, DEEPENING YOUR FAITH, OR EXPANDING
-					YOUR BIBLICAL UNDERSTANDING
+				If you’re seeking encouragement, spiritual growth, or a deeper revelation of God's word
 				</p>
 
 				{/* Categories Grid */}
