@@ -43,7 +43,7 @@ export default function HeroSection() {
 				style={{ backgroundImage: "url('/hor-hero-bg.jpg')" }}>
 				<div className='absolute inset-0 bg-black/60'></div>
 
-				<div className='relative text-center text-white z-10 px-4 max-w-3xl'>
+				<div className='w-full relative text-center text-white z-10 px-4 max-w-3xl'>
 					{/* Main title swiper */}
 					<Swiper
 						spaceBetween={30}
