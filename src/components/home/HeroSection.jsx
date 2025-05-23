@@ -26,14 +26,14 @@ export default function HeroSection() {
 		'Reconciling The World To God',
 		'Giving Our Lives To Save Lives',
 		'Get All Saved',
-		'Building Strong Foundations',
+		
 	];
 
 	const subTexts = [
 		'Going Round The World And Hitting Them With The Word Of Reconcilation',
 		"Going Round The World And Hitting Them With The Word Of Reconcilation",
 		'Going Round The World And Hitting Them With The Word Of Reconcilation',
-		'Going Round The World And Hitting Them With The Word Of Reconcilation',
+		
 	];
 
 	return (
