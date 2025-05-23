@@ -23,17 +23,17 @@ export default function HeroSection() {
 
 	// Arrays of main titles and subtitles
 	const mainTitles = [
-		'Raising The Next Generation',
-		'Empowering Future Leaders',
-		'Inspiring Hearts and Minds',
+		'Reconciling The World To God',
+		'Giving Our Lives To Save Lives',
+		'Get All Saved',
 		'Building Strong Foundations',
 	];
 
 	const subTexts = [
-		'Guiding children and youth to grow in Christ and character',
-		"Developing talents and faith for tomorrow's challenges",
-		'Creating a nurturing environment for spiritual growth',
-		'Fostering values that last a lifetime',
+		'Going Round The World And Hitting Them With The Word Of Reconcilation',
+		"Going Round The World And Hitting Them With The Word Of Reconcilation",
+		'Going Round The World And Hitting Them With The Word Of Reconcilation',
+		'Going Round The World And Hitting Them With The Word Of Reconcilation',
 	];
 
 	return (
