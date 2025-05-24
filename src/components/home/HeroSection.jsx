@@ -80,11 +80,11 @@ export default function HeroSection() {
 							className='bg-primary px-6 py-3 rounded hover:bg-primary'>
 							Livestream
 						</Link>
-						<button
-							onClick={openModal}
+						<a
+							href='#joinus'
 							className='border-2 border-primary px-6 py-3 rounded hover:bg-primary hover:border-transparent'>
 							Join Us Today
-						</button>
+						</a>
 					</div>
 				</div>
 			</section>
