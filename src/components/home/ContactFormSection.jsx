@@ -38,7 +38,7 @@ export default function ContactFormSection() {
 				<div>
 					<h4 className='text-xl font-bold mb-4'>GET IN TOUCH</h4>
 					<p className='text-white/70'>USE THIS FORM TO SUBMIT YOUR INQUIRY</p>
-					<p>Olori 19, Abraka</p>
+					<p>House Of Reconcilation Christain Outreach Intl</p>
 					<div className='flex gap-3 mt-5'>
 						<a href='#'>
 							<FaFacebook size={20} />

@@ -10,7 +10,7 @@ export default function PlaceForEveryoneSection() {
 						<span className='text-primary'>EVERYONE</span>
 					</h2>
 					<p className='text-white/70 max-w-sm'>
-						Church with us every week, we are in Abraka, Delta State.
+						Worship with us at House Of Reconcilation Christain Outreach Intl
 					</p>
 				</div>
 
