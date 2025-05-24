@@ -9,28 +9,28 @@ export default function BenefitSection() {
 			title: 'GET IN TOUCH WITH TEACHINGS AND MESSAGES',
 			description:
 				'Ignite your world with our weekly messages and daily teachings, available to you at all times, helping you with deeper insight of Gods Word and spiritual encounters.',
-			image: '/hor-bene1.png', // replace with your actual image
+			image: 'IM1.png', // replace with your actual image
 		},
 		{
 			number: 2,
 			title: 'INSPIRE YOUR WORLD THROUGH FELLOWSHIP WITH GODS WORD',
 			description:
 				'hours delivery of spirit inspired sermons, tapes, prophetic declarations and anointed teachings designed to help you grow and sustain relevance in your journey with Christ.',
-			image: '/hor-bene2.png',
+			image: '/im2.png',
 		},
 		{
 			number: 3,
 			title: 'EXPERIENCE ENCOUNTERS WITH GODS SPIRIT VIA OUR MINISTRY',
 			description:
 				'Divine encounters with the holy spirit awaits you as you take advantage of our ministry programs and materials designed to bring you into deeper intimacy with the father and his son.',
-			image: '/hor-bene3.png',
+			image: '/im4.png',
 		},
 		{
 			number: 4,
 			title: 'LIFE CHANGING WORDS AND PROPHETIC SERMONS',
 			description:
 				'Journey into deeper revelations and enlightenment of Gods word, readily available to you for spiritual encounters and life of victory',
-			image: '/hor-bene4.png',
+			image: '/im5.png',
 		},
 	];
 

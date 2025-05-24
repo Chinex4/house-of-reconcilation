@@ -14,7 +14,15 @@ const Home = () => {
 
 	useEffect(() => {
 		const today = new Date();
-		if (today.getFullYear() === 2025 && today.getMonth() === 4 && today.getDate() === 23) {
+		const startDate = new Date('2025-05-24');
+		const endDate = new Date('2025-06-14');
+
+		// Normalize times for accurate date-only comparison
+		startDate.setHours(0, 0, 0, 0);
+		endDate.setHours(23, 59, 59, 999);
+		today.setHours(0, 0, 0, 0);
+
+		if (today >= startDate && today <= endDate) {
 			setIsBirthday(true);
 			launchConfetti();
 		}
