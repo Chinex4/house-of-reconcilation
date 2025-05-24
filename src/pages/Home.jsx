@@ -6,6 +6,7 @@ import LeadPastorSection from '../components/home/LeadPastorSection';
 import PlaceForEveryoneSection from '../components/home/PlaceForEveryoneSection';
 import GiveToChurchSection from '../components/home/GiveToChurchSection';
 import ContactFormSection from '../components/home/ContactFormSection';
+import JoinUs from '../components/home/JoinUs';
 import { Dialog, Transition } from '@headlessui/react';
 import confetti from 'canvas-confetti';
 
@@ -38,6 +39,7 @@ const Home = () => {
 			<HeroSection />
 			<CategoriesSection />
 			<BenefitsSection />
+			<JoinUs />
 			<LeadPastorSection />
 			<PlaceForEveryoneSection />
 			<GiveToChurchSection />
