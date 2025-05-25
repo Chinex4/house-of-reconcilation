@@ -42,7 +42,7 @@ export default function JoinUs() {
 				Join Us Today
 			</h1>
 			<img
-				src='/hor-hero-bg.jpg'
+				src='/join-us.jpg'
 				alt='Join us'
 				className='w-full md:max-w-2xl mb-8 rounded-lg'
 			/>
