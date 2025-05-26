@@ -37,7 +37,7 @@ export default function JoinUs() {
   return (
     <section
       id="joinus"
-      className="bg-[#1a1a1a] text-white flex flex-col items-center py-12 px-4 md:px-8 lg:px-16"
+      className="bg-[#1a1a1a] text-white flex flex-col items-center pt-1 pb-12 px-4 md:px-8 lg:px-16"
     >
       <h1 className="text-white text-2xl md:text-3xl font-bold mb-10">
         Join Us Today

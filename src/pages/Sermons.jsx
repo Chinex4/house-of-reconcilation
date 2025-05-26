@@ -1,11 +1,31 @@
 import React from 'react';
 
 const sermonVideos = [
-  { title: 'The Power of Faith', src: '/videos/sermon1.mp4' },
-  { title: 'Walking in the Spirit', src: '/videos/sermon2.mp4' },
-  { title: 'Victory in Prayer', src: '/videos/sermon3.mp4' },
-  { title: 'Kingdom Mindset', src: '/videos/sermon4.mp4' },
-  { title: 'Divine Breakthrough', src: '/videos/sermon5.mp4' },
+  {
+    title: 'The Power of Faith',
+    src: '/videos/sermon1.mp4',
+    poster: '/poster1.png',
+  },
+  {
+    title: 'Walking in the Spirit',
+    src: '/videos/sermon2.mp4',
+    poster: '/poster2.png',
+  },
+  {
+    title: 'Victory in Prayer',
+    src: '/videos/sermon3.mp4',
+    poster: '/poster3.png',
+  },
+  {
+    title: 'Kingdom Mindset',
+    src: '/videos/sermon4.mp4',
+    poster: '/poster4.png',
+  },
+  {
+    title: 'Divine Breakthrough',
+    src: '/videos/sermon5.mp4',
+    poster: '/poster5.png',
+  },
 ];
 
 const Sermons = () => {
@@ -21,11 +41,14 @@ const Sermons = () => {
       <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-6xl mx-auto">
         {sermonVideos.map((video, index) => (
           <div key={index} className="bg-white text-dark rounded-xl overflow-hidden shadow-lg">
-            <video
-              controls
-              className="w-full h-64 object-cover"
-              src={video.src}
-            />
+            <div className="w-full h-64 bg-black">
+              <video
+                controls
+                className="w-full h-full object-cover"
+                src={video.src}
+                poster={video.poster}
+              />
+            </div>
             <div className="p-4 text-center font-medium text-lg text-primary">
               {video.title}
             </div>
