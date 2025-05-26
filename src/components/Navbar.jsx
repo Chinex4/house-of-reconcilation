@@ -12,6 +12,7 @@ export default function Navbar() {
 		{ name: 'HOME', path: '/' },
 		{ name: 'SERMONS', path: '/sermons' },
 		{ name: 'GIVE', path: '/give' },
+		{ name: 'BRANCHES', path: '/branches' },
 		{ name: 'ABOUT US', path: '/about' },
 	];
 

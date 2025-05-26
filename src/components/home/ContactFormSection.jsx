@@ -40,13 +40,13 @@ export default function ContactFormSection() {
 					<p className='text-white/70'>USE THIS FORM TO SUBMIT YOUR INQUIRY</p>
 					<p>House Of Reconcilation Christain Outreach Intl</p>
 					<div className='flex gap-3 mt-5'>
-						<a href='#'>
+						<a href='https://web.facebook.com/profile.php?id=100064342673269'>
 							<FaFacebook size={20} />
 						</a>
-						<a href='#'>
+						<a href='https://www.instagram.com/houseofreconciliationcoi/'>
 							<FaInstagram size={20} />
 						</a>
-						<a href='#'>
+						<a href='https://www.tiktok.com/@Houseofreconciliationcoi'>
 							<FaTiktok size={20} />
 						</a>
 					</div>

@@ -16,9 +16,10 @@ export default function Footer() {
 
 				{/* Links */}
 				<div className='flex space-x-6 text-white/60'>
-					<a href='#'>Home</a>
-					<a href='#'>Sermons</a>
-					<a href='#'>About Us</a>
+					<a href='/'>Home</a>
+					<a href='/sermons'>Sermons</a>
+					<a href='/branches'>Branches</a>
+					<a href='/about'>About Us</a>
 					<a href='#'>Blog</a>
 				</div>
 

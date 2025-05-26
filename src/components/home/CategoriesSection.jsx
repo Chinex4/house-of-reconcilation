@@ -7,17 +7,17 @@ export default function CategoriesSection() {
 		{
 			title: 'AUDIO MESSAGE',
 			image: '/hor-cat1.png', // Replace with your actual image paths
-			link: '/audio-messages',
+			link: 'https://t.me/PJHOR',
 		},
 		{
 			title: 'VIDEO MESSAGE',
 			image: '/hor-cat2.png',
-			link: '/video-messages',
+			link: 'https://web.facebook.com/profile.php?id=100064342673269',
 		},
 		{
 			title: 'OUR BLOG',
 			image: '/hor-cat3.png',
-			link: '/blog',
+			link: '/',
 		},
 	];
 

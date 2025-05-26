@@ -76,7 +76,7 @@ export default function HeroSection() {
 
 					<div className='flex flex-col md:flex-row gap-4 justify-center'>
 						<Link
-							to='/livestream'
+							to='https://web.facebook.com/profile.php?id=100064342673269'
 							className='bg-primary px-6 py-3 rounded hover:bg-primary'>
 							Livestream
 						</Link>
