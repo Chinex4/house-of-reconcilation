@@ -54,7 +54,7 @@ const About = () => {
                     Welcome to House of Reconciliation Outreach! We believe you’re here for a purpose. Whether you're new to the faith,
                     looking for a church home, or simply exploring, know that you're not just welcomed here — you're wanted.
                 </p>
-                <p className="text-lg text-white leading-relaxed italic">— Pastor John Doe</p>
+                <p className="text-lg text-white leading-relaxed italic">— PST.(PHARM). JOSEPH ENOBAKHARE </p>
             </section>
         </div>
     );
