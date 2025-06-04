@@ -9,9 +9,9 @@ export default function LeadPastorSection() {
     				<div className=''>
     					<div className=''>
     						<img
-    							src='/pastor-pic.png' // <-- replace with your image path
+    							src='/pstorpic.jpeg' // <-- replace with your image path
     							alt='Pastor'
-    							className='w-full rounded-full lg:w-[458px] h-full lg:h-[458px] object-cover'
+    							className='w-full rounded-full lg:w-[450px] h-full lg:h-[450px] object-cover'
 								
     						/>
     					</div>

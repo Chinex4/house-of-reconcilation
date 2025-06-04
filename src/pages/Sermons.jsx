@@ -22,7 +22,7 @@ const sermonVideos = [
     poster: '/poster4.png',
   },
   {
-    title: 'Divine Breakthrough',
+    title: 'How to Render Acceptable Praises',
     src: '/videos/sermon5.mp4',
     poster: '/poster5.png',
   },

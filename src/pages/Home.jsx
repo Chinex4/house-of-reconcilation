@@ -77,9 +77,9 @@ const Home = () => {
                 leaveTo="opacity-0 scale-95">
                 <Dialog.Panel className="w-full max-w-md transform overflow-hidden rounded-2xl bg-white text-dark p-6 text-center align-middle shadow-xl transition-all">
                   <img
-                    src="/pastor.jpeg"
+                    src="/pst.jpg"
                     alt="Pastor"
-                    className="w-40 h-40 mx-auto rounded-full mb-4 object-cover"
+                    className="w-60 h-60 mx-auto rounded-full mb-4 object-cover"
                   />
                   <Dialog.Title
                     as="h3"
