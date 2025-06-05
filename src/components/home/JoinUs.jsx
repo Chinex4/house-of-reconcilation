@@ -2,11 +2,13 @@ import { useState } from 'react';
 import { Dialog, Transition } from '@headlessui/react';
 import { Fragment } from 'react';
 import { XMarkIcon } from '@heroicons/react/24/outline';
+import emailjs from '@emailjs/browser';
 
 export default function JoinUs() {
   const [isOpen, setIsOpen] = useState(false);
   const [form, setForm] = useState({ name: '', email: '', phone: '' });
   const [errors, setErrors] = useState({});
+  const [loading, setLoading] = useState(false);
 
   const validate = () => {
     const newErrors = {};
@@ -27,11 +29,35 @@ export default function JoinUs() {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    if (validate()) {
-      alert('Form submitted successfully!');
-      setIsOpen(false);
-      setForm({ name: '', email: '', phone: '' });
-    }
+    if (!validate()) return;
+
+    setLoading(true);
+
+    emailjs
+      .send(
+        'service_y5elljh',     // Replace with your actual service ID
+        'template_qhcsx42',    // Replace with your actual template ID
+        {
+          name: form.name,
+          email: form.email,
+          phone: form.phone,
+        },
+        '0UXmVfa0H0qjvWC7d'      // Replace with your actual public key
+      )
+      .then(
+        () => {
+          alert('Form submitted successfully!');
+          setIsOpen(false);
+          setForm({ name: '', email: '', phone: '' });
+          setErrors({});
+          setLoading(false);
+        },
+        (error) => {
+          console.error('EmailJS Error:', error);
+          alert('Failed to submit. Please try again later.');
+          setLoading(false);
+        }
+      );
   };
 
   return (
@@ -153,7 +179,7 @@ export default function JoinUs() {
                       type="submit"
                       className="w-full bg-primary text-white font-semibold px-4 py-2 rounded-md hover:bg-primary/80"
                     >
-                      Submit
+                      {loading ? 'Submitting...' : 'Submit'}
                     </button>
                   </form>
                 </Dialog.Panel>

@@ -13,10 +13,10 @@ export default function ContactFormSection() {
 
 		emailjs
 			.sendForm(
-				'YOUR_SERVICE_ID',    // e.g., service_xxx123
-				'YOUR_TEMPLATE_ID',   // e.g., template_abc456
+				'service_y5elljh',    // Replace with your actual service ID (e.g., 'service_abc123')
+				'template_qhcsx42',   // Replace with your actual template ID (e.g., 'template_xyz456')
 				formRef.current,
-				'YOUR_PUBLIC_KEY'     // e.g., BvfdJSDH3423542 (not secret key)
+				'0UXmVfa0H0qjvWC7d'     // Replace with your actual public key (e.g., 'F8xj4jJ3abcXYZ')
 			)
 			.then(
 				() => {
@@ -27,6 +27,7 @@ export default function ContactFormSection() {
 				(error) => {
 					console.error('FAILED...', error);
 					setLoading(false);
+					alert('An error occurred. Please try again.');
 				}
 			);
 	};
@@ -34,25 +35,34 @@ export default function ContactFormSection() {
 	return (
 		<section id='contact-us' className='py-16 px-6 bg-dark text-white'>
 			<div className='max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-12'>
-				{/* Text */}
+				{/* Text Info */}
 				<div>
 					<h4 className='text-xl font-bold mb-4'>GET IN TOUCH</h4>
 					<p className='text-white/70'>USE THIS FORM TO SUBMIT YOUR INQUIRY</p>
-					<p>House Of Reconcilation Christain Outreach Intl</p>
+					<p>House Of Reconciliation Christian Outreach Intl</p>
 					<div className='flex gap-3 mt-5'>
-						<a href='https://web.facebook.com/profile.php?id=100064342673269'>
+						<a
+							href='https://web.facebook.com/profile.php?id=100064342673269'
+							target='_blank'
+							rel='noopener noreferrer'>
 							<FaFacebook size={20} />
 						</a>
-						<a href='https://www.instagram.com/houseofreconciliationcoi/'>
+						<a
+							href='https://www.instagram.com/houseofreconciliationcoi/'
+							target='_blank'
+							rel='noopener noreferrer'>
 							<FaInstagram size={20} />
 						</a>
-						<a href='https://www.tiktok.com/@Houseofreconciliationcoi'>
+						<a
+							href='https://www.tiktok.com/@Houseofreconciliationcoi'
+							target='_blank'
+							rel='noopener noreferrer'>
 							<FaTiktok size={20} />
 						</a>
 					</div>
 				</div>
 
-				{/* Form */}
+				{/* Contact Form */}
 				<form ref={formRef} onSubmit={sendEmail} className='flex flex-col space-y-4'>
 					<input
 						type='email'
